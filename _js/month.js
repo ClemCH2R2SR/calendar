@@ -1,5 +1,3 @@
-"use strict";
-
 class Month {
     name;
     numberOfDays;
@@ -10,3 +8,5 @@ class Month {
         this.number = number;
     }
 }
+
+export {Month};
