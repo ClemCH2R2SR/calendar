@@ -1,0 +1,13 @@
+#calendar {
+    color: dimgray;
+    display: flex;
+    justify-content: space-between;
+}
+#calendar .closed {
+    background-color: cadetblue;
+    color: lightgray
+}
+#calendar .holiday {
+    background-color: goldenrod;
+    color: black;
+}
