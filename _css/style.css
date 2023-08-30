@@ -1,13 +1,17 @@
-#calendar {
+#section-calendrier {
     color: dimgray;
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
 }
-#calendar .closed {
+#section-calendrier .closed {
     background-color: cadetblue;
     color: lightgray
 }
-#calendar .holiday {
+#section-calendrier .holiday {
     background-color: goldenrod;
     color: black;
+}
+.hidden {
+    display: none !important;
 }

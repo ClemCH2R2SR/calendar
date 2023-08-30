@@ -1,10 +1,9 @@
-import { fetchHolidays, createCalendar } from "./calendar.func.js";
+import { manageCalendar } from "./calendar.func.js";
+import { attachMenuEvents } from "./display.func.js";
 
 window.addEventListener(
     'DOMContentLoaded',
     function (event) {
-        const calendrier = createCalendar();
-        console.log(calendrier);
-        document.querySelector('#calendar').innerHTML = calendrier.innerHTML;
-        fetchHolidays();
-});
+        manageCalendar();
+        attachMenuEvents();
+    });
